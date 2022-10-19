@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/asset/index.css">
+   
+    <link rel="stylesheet" href="/asset/contact.css">
+    
+
+</head>
+<body>
+    <nav>
+        <div id="nav-left" class="nav-left">
+            <ul>
+                <li class="logo"><a href="/"><img src="/asset/logo ansor ss.png" alt=""></a></li>
+                <li><a href="/"class="a-navbar">Home</a></li>
+                <li><a href="/my-project"class="a-navbar">My Project</a></li>
+            </ul>
+        </div>
+        <div id="nav-right" class="nav-right">
+            <a href="/contact">Contact Me</a>
+        </div>
+    </nav>
+    <form action="">
+        <div>
+                <h1 style="text-align:center; font-weight: bold;">GET IN TOUCH</h1>
+            <label for="input-name">Name</label>
+            <input height="50" type="text" id="input-name" required>
+        </div>
+        <div>
+            <label for="input-email">Email</label>
+            <input height="50" type="email" id="input-email"required>
+        </div>
+        <div>
+            <label for="input-nohp">Phone number</label>
+            <input height="50" type="number" id="input-nohp" required>
+        </div>
+        <div>
+            <label for="input-subject">Subject</label>
+            <select id="input-subject" required>
+                <option value="" hidden>Select</option>
+                <option>FrontEnd</option>
+                <option>BackEnd</option>
+                <option>Fullstack</option>
+            </select>
+        </div>
+        <div>
+            <label for="input-messege">your massage</label>
+            <textarea name="" id="input-messege" cols="40" rows="5"></textarea>
+        </div>
+        <div>
+            <button onclick="ShowData()" class="button2">Submit</button>
+        </div>
+    </form>
+</body>
+<script src="/asset/contact.js"></script>
+</html>

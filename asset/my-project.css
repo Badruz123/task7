@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.date {
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.contact-box{
+    background-color:green ;
+}
+.checkbox-right .checkbox-left {
+    display: flex;
+    background-color: green;
+    width: 100%;
+    resize: none;
+    
+    /* border-radius: 10px; */
+    /* color: black; */
+    box-shadow: 2px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+form {
+background-color: rgba(181, 191, 178, 0.709);
+border-radius: 20px;
+box-shadow: 20px;
+}
+.blog-list{
+    width:  500px auto;
+    background-color: rgba(237, 246, 233, 0.356);
+    margin-left: 30px;
+    float: left;
+}
+.checkbox {
+    display: inline;
+}
+.blog-image{
+    
+    width: 10px;
+
+}
+.input-blog-image-group {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card-item{
+    display: inline-block;
+    margin-left: 20px;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+    background-color:whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+    text-align: justify;
+    box-shadow: -4px 14px 15px -1px rgba(0,0,0,0.34);
+-webkit-box-shadow: -4px 14px 15px -1px rgba(0,0,0,0.34);
+-moz-box-shadow: -4px 14px 15px -1px rgba(0,0,0,0.34);
+}
+.card-blog{
+    
+    width:100%; 
+    height: auto;  
+}
+img {
+width: 500px;
+}
+.btn-edit,.btn-delete{
+    width: 30%;
+    margin-left: 45px;
+    
+}
+.icon{
+    width: 700px;
+    display: inline;
+    font-size: xx-large;
+    align-items: center;
+    gap: 20px;
+}
+/*blog detail*/
+.blog-item {
+    display: flex;
+    height: 400px;
+    background-color: #F4F3F3;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.header{
+    margin-bottom: 30px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+.durasi{
+    margin-top: px;
+    gap: 20px;
+    flex-direction: column;
+}
+.title{
+    text-decoration: none;
+}
+.icon-detail{
+    gap: 20px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
